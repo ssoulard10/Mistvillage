@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<header>
+<title>Mistvillage/Antorus</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+	
+	<div class="container">
+		<div class="imgcontainer">
+			<img src="img/mistvillage2.png" id="guild">
+		</div>
+		
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Learn the Fights
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Antorus</a>
+      <a href="#">Tomb of Sargeras</a>
+      <a href="#">Nighthold</a>
+    </div>
+  </div> 
+</div>
+		
+			
+		<div class="imgcontainer">
+			<img src="img/antorus2.png" id="banner">
+		</div>
+	</div>
+</header>
+
+<body>
+
+	<div id="how_to">
+		<h2>How to Fight: </h2>
+	<ul class="inlineList">
+    		<li><a class="link_color" href="garothi.html">Garothi Worldbreaker</a></li>
+    		<li><a class="link_color" href="felhound.html">Felhounds of Sargeras</a></li>
+    		<li><a class="link_color" href="command.html">Antoran High Command</a></li>
+    		<li><a class="link_color" href="portal.html">Portal Keeper Hasabel</a></li>
+    		<li><a class="link_color" href="eonar.html">Eonar the Life-Binder</a></li>
+    		<li><a class="link_color" href="imonar.html">Imonar the SoulHunter</a></li>
+    		<li><a class="link_color" href="kingorath.html">Kin'gorath</a></li>
+    		<li><a class="link_color" href="vari.html">Varimathras</a></li>
+    		<li><a class="link_color" href="coven.html">Coven of Shivarra</a></li>
+    		<li><a class="link_color" href="aggramar.html">Aggramar</a></li>
+    		<li><a class="link_color" href="argus.html">Argus the Unmaker</a></li>
+	</ul>
+	</div>
+
+	<div class="main_area">
+		<div class="question">
+			This is where question 1 will go
+			<div class="selection">
+				this is where multiple choice goes				
+			</div>
+			<div class="selection">
+				this is where multiple choice goes				
+			</div>
+			<div class="selection">
+				this is where multiple choice goes				
+			</div>
+			<div class="selection">
+				this is where multiple choice goes				
+			</div>
+		</div>
+		<div class="fight">
+		
+		</div>
+		
+	
+	</div>
+
+
+</body>
+
+<!-- align this -->
+
+<footer>
+	<p>Get good scrub</p>
+</footer>
+
+</html>
