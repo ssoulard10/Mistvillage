@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<header>
+<title>Mistvillage/Antorus</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+	
+	<div class="container">
+		<div class="imgcontainer">
+			<img src="img/mistvillage2.png" id="guild">
+		</div>
+		
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Learn the Fights
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="main.html">Antorus</a>
+      <a href="tomb.html">Tomb of Sargeras</a>
+      <a href="nighthold.html">Nighthold</a>
+    </div>
+  </div> 
+</div>
+		
+			
+		<div class="imgcontainer">
+			<img src="img/nighthold.png" id="banner">
+		</div>
+	</div>
+</header>
+
+<body>
+
+	<div id="how_to">
+		<h2>How to Fight: </h2>
+	<ul class="inlineList">
+    		<li><a class="link_color" href="skorpyron.html">Skorpyron</a></li>
+    		<li><a class="link_color" href="chronomatic.html">Chronomatic Anomaly</a></li>
+    		<li><a class="link_color" href="trilliax.html">Trilliax</a></li>
+    		<li><a class="link_color" href="aluriel.html">Spellblade Aluriel</a></li>
+    		<li><a class="link_color" href="etraeus.html">Star Augur Etraeus</a></li>
+    		<li><a class="link_color" href="telarn.html">High Botanist Tel'arn</a></li>
+    		<li><a class="link_color" href="krosus.html">Krosus</a></li>
+    		<li><a class="link_color" href="tichon.html">Tichondruius</a></li>
+    		<li><a class="link_color" href="elisande.html">Elisande</a></li>
+    		<li><a class="link_color" href="guldan.html">Gul'dan</a></li>
+	</ul>
+	</div>
+
+	<div class="main_area">
+		<div class="question">
+			This is where question 1 will go
+			<div class="selection">
+				this is where multiple choice goes				
+			</div>
+			<div class="selection">
+				this is where multiple choice goes				
+			</div>
+			<div class="selection">
+				this is where multiple choice goes				
+			</div>
+			<div class="selection">
+				this is where multiple choice goes				
+			</div>
+		</div>
+		<div class="fight">
+		
+		</div>
+		
+	
+	</div>
+
+
+</body>
+
+<!-- align this -->
+
+<footer>
+	<p>Made by Kerynna & Galarissa&copy;</p>
+</footer>
+
+</html>
