@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<header>
+<title>Mistvillage</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+	
+	<div class="container">
+		<div class="imgcontainer">
+			<img src="img/mistvillage2.png" id="guild">
+		</div>
+		
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Learn the Fights
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="main.html">Antorus</a>
+      <a href="tomb.html">Tomb of Sargeras</a>
+      <a href="nighthold.html">Nighthold</a>
+    </div>
+  </div> 
+</div>
+	</div>
+</header>
+
+<body>
+
+	<div id="how_to">
+		<h2>Welcome to Mistvillage's Website</h2>
+	</div>
+
+	<div class="main_area">
+		We are a fairly new alliance guild on the Moon Guard server. blah blah blah 
+		<div class="fight">
+		If you want more stuff put it here. I'm being lazy atm. 
+		</div>
+		
+	
+	</div>
+
+
+</body>
+
+<!-- align this -->
+
+<footer>
+	<p>Made by Kerynna & Galarissa&copy;</p>
+</footer>
+
+</html>
